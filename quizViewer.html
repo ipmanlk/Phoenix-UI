@@ -1,0 +1,158 @@
+<html>
+<head>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 100%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #34cceb;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding-top: 10%;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.answer
+{
+  background: #34cceb;
+  color: white;
+  border-radius: 5px;
+  padding-left: 5px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.answer:hover
+{
+  background: #34b1eb;
+  color: white;
+  border-radius: 5px;
+  padding-left: 5px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.btnans
+{
+  width: 150px;
+  height: 40px;
+  background:#036ffc; 
+  border-radius: 3px;
+  border:none;
+  color: white;
+}
+
+
+.btnans:hover
+{
+ width: 150px;
+  height: 40px;
+  background:#34b1eb;
+  border-radius: 3px;
+  border:none;
+  color: white; 
+}
+.radio
+{
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>Exam Title</h2>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="tab(event, 'q1')" id="defaultOpen">Question 1</button>
+  <button class="tablinks" onclick="tab(event, 'q2')">Question 2</button>
+  <button class="tablinks" onclick="tab(event, 'q3')">Question 3</button>
+</div>
+
+<div id="q1" class="tabcontent">
+  <h2>Question 1?</h2>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans1"> Answer 1 </div>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans2"> Answer 2 </div>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans3"> Answer 3 </div>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans4"> Answer 4 </div>
+ <center><input type="button" class="btnans" name="" value="Submit"></center>
+</div>
+
+<div id="q2" class="tabcontent">
+ <h2>Question 2?</h2>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans1"> Answer 1 </div>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans2"> Answer 2 </div>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans3"> Answer 3 </div>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans4"> Answer 4 </div>
+ <center><input type="button" class="btnans" name="" value="Submit"></center>
+</div>
+
+<div id="q3" class="tabcontent">
+ <h2>Question 3?</h2>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans1"> Answer 1 </div>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans2"> Answer 2 </div>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans3"> Answer 3 </div>
+ <div class="answer"> <input type="radio" class="radio" name="answer" id="ans4"> Answer 4 </div>
+ <center><input type="button" class="btnans" name="" value="Submit"></center>
+</div>
+
+<script>
+function tab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
