@@ -111,7 +111,7 @@
 
               </div>
               <div class="nav-item d-none d-md-flex">
-                  <a href="https://github.com/tabler/tabler" class="btn btn-sm btn-outline-primary" target="_blank">Enroll to a Course</a>
+                  <a class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#courseModal">Enroll to a Course</a>
                 </div>
               <a href="#" class="header-toggler d-lg-none ml-3 ml-lg-0" data-toggle="collapse" data-target="#headerMenuCollapse">
                 <span class="header-toggler-icon"></span>
@@ -176,7 +176,7 @@
                     <tbody><tr>
                       <td>Software Engineering</td>
                       <td class="text-right">
-                       <span class="badge badge-warning">Pending</span> <a class="btn btn-sm btn-outline-primary margin5px txtw"> Submit </a> 
+                       <span class="badge badge-warning">Pending</span> <a class="btn btn-sm btn-outline-primary margin5px txtw" data-toggle="modal" data-target="#assignmentModal"> Submit </a> 
                       </td>
                     </tr>
                    
@@ -191,7 +191,7 @@
                     <tbody><tr>
                       <td>Hardware Engineering</td>
                       <td class="text-right">
-                       <span class="badge badge-success">Submitted</span> <a class="btn btn-sm btn-outline-primary margin5px txtw"> Resubmit </a> 
+                       <span class="badge badge-success">Submitted</span> <a class="btn btn-sm btn-outline-primary margin5px txtw" > Resubmit </a> 
                       </td>
                     </tr>
                    
@@ -201,6 +201,61 @@
   </div>
 </div>
 
+
+
+<!-- Modal for submit assignments -->
+<div class="modal fade" id="assignmentModal" tabindex="-1" role="dialog" aria-labelledby="assignmentModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="assignmentModal">Submit an Assignment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p> Assignment Name</p>
+        <p> Due Date </p>
+         <input type="file" name="fileToUpload" id="fileToUpload" class="btn btn-primary">
+    <input type="submit" class="btn btn-success" value="Upload" name="submit">
+    <br>
+         <div class="form-group">
+    <label for="exampleFormControlTextarea1">Comment</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Done</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal for enroll to a course-->
+<div class="modal fade" id="courseModal" tabindex="-1" role="dialog" aria-labelledby="courseModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="courseModal">Enroll to a Course</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <input type="text" name="txtCourseID" id="txtCourseID" class="form-control" placeholder="Course Code">
+        <br>
+   
+    <br>
+ 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Enroll</button>
+      </div>
+    </div>
+  </div>
+</div>
 <hr>
 <h4> Your Progress </h4>
 
@@ -209,7 +264,7 @@
     <div class="col-sm">
       <div class="card">
                   <div class="card-header">
-                    <h4 class="card-title">Tests</h4>  <a class="btn btn-sm btn-outline-primary margin5px txtw"> Generate Report </a>
+                    <h4 class="card-title">Tests</h4>  <a class="btn btn-sm btn-outline-primary margin5px txtw " > Generate Report </a>
                   </div>
                   <table class="table card-table">
                     <tbody>
