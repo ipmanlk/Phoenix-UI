@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style type="text/css">
+    .scroll_long
+{ 
+  max-height: 500px  !important; 
+  overflow: auto  !important;
+  display:inline-block  !important;
+}
+    .scroll_short
+{ 
+  max-height: 200px  !important; 
+  overflow: auto  !important;
+  display:inline-block  !important;
+}
+  </style>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -130,7 +144,7 @@
 
      <br>
     
-     <div class="card">
+     <div class="card scroll_long" >
                   <div class="card-header">
                     <h4 class="card-title">Course Materials</h4>
                   </div>
@@ -143,12 +157,36 @@
                     <td>Special Concepts</td>
                       <td class="text-right"><a class="btn btn-success txtwhite">View </a></td>
                     </tr>
+                      <td>Special Concepts</td>
+                      <td class="text-right"><a class="btn btn-success txtwhite">View </a></td>
+                    </tr>
+                      <td>Special Concepts</td>
+                      <td class="text-right"><a class="btn btn-success txtwhite">View </a></td>
+                    </tr>
+                      <td>Special Concepts</td>
+                      <td class="text-right"><a class="btn btn-success txtwhite">View </a></td>
+                    </tr>
+                      <td>Special Concepts</td>
+                      <td class="text-right"><a class="btn btn-success txtwhite">View </a></td>
+                    </tr>
+                      <td>Special Concepts</td>
+                      <td class="text-right"><a class="btn btn-success txtwhite">View </a></td>
+                    </tr>
+                      <td>Special Concepts</td>
+                      <td class="text-right"><a class="btn btn-success txtwhite">View </a></td>
+                    </tr>
+                      <td>Special Concepts</td>
+                      <td class="text-right"><a class="btn btn-success txtwhite">View </a></td>
+                    </tr>
+                      <td>Special Concepts</td>
+                      <td class="text-right"><a class="btn btn-success txtwhite">View </a></td>
+                    </tr>
                    
                   </tbody></table>
                 </div>
     </div>
     <div class="col-sm">
-      <div class="card p-3">
+      <div class="card p-3" >
                   <div class="d-flex align-items-center">
                     <span class="stamp stamp-md bg-red mr-3">
                       <i class="fe fe-users"></i>
@@ -161,7 +199,7 @@
                 </div>
 
                 <h4> Submission </h4>
-                 <div class="card">
+                 <div class="card scroll_short" >
                   <div class="card-header">
                     <h4 class="card-title">Assignments</h4>
                   </div>
@@ -174,11 +212,17 @@
                     <td>UI/UX Designing</td>
                       <td class="text-right txtwhite"><a class="btn btn-primary">View Result </a></td>
                     </tr>
+                    <td>UI/UX Designing</td>
+                      <td class="text-right txtwhite"><a class="btn btn-primary">View Result </a></td>
+                    </tr>
+                    <td>UI/UX Designing</td>
+                      <td class="text-right txtwhite"><a class="btn btn-primary">View Result </a></td>
+                    </tr>
                    
                   </tbody></table>
                 </div>
 
-                <div class="card">
+                <div class="card scroll_short" >
                   <div class="card-header">
                     <h4 class="card-title">Tests</h4>
                   </div>
@@ -186,6 +230,12 @@
                     <tbody><tr>
                   
                       <td>Quiz 1</td>
+                      <td class="text-right txtwhite"><a class="btn btn-primary">View Result </a></td>
+                    </tr>
+                    <td>UI/UX Designing</td>
+                      <td class="text-right txtwhite"><a class="btn btn-primary">View Result </a></td>
+                    </tr>
+                    <td>UI/UX Designing</td>
                       <td class="text-right txtwhite"><a class="btn btn-primary">View Result </a></td>
                     </tr>
                     <td>UI/UX Designing</td>

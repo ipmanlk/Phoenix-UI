@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style type="text/css">
+      <style type="text/css">
+              .scroll_long
+          { 
+            max-height: 500px  !important; 
+            overflow: auto  !important;
+            display:inline-block  !important;
+          }
+              .scroll_short
+          { 
+            max-height: 200px  !important; 
+            overflow: auto  !important;
+            display:inline-block  !important;
+          }
+  </style>
+  </style>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -122,7 +138,7 @@
 
         <div class="container">
         	<div class="row">
-  <div class="col-8">
+  <div class="col-6">
   	
 <br>
 <h4> Enrolled Courses </h4>
@@ -165,31 +181,72 @@
 
 
   </div>
-  <div class="col-4">
+  <div class="col-6">
   	<br>
   	<h4> Assisgnments and Tests </h4>
-  				<div class="card">
+  				<div class="card scroll_short">
                   <div class="card-header">
                     <h2 class="card-title">Assignments</h2>
                   </div>
                   <table class="table card-table">
                     <tbody><tr>
                       <td>Software Engineering</td>
+                       <td>Due Date: 2019/02/02</td>
                       <td class="text-right">
                        <span class="badge badge-warning">Pending</span> <a class="btn btn-sm btn-outline-primary margin5px txtw" data-toggle="modal" data-target="#assignmentModal"> Submit </a> 
                       </td>
+
+                    </tr>
+                    <tr>
+                      <td>Software Engineering</td>
+                       <td>Due Date: 2019/02/02</td>
+                      <td class="text-right">
+                       <span class="badge badge-warning">Pending</span> <a class="btn btn-sm btn-outline-primary margin5px txtw" data-toggle="modal" data-target="#assignmentModal"> Submit </a> 
+                      </td>
+                      
+                    </tr>
+                    <tr>
+                      <td>Software Engineering</td>
+                       <td>Due Date: 2019/02/02</td>
+                      <td class="text-right">
+                       <span class="badge badge-warning">Pending</span> <a class="btn btn-sm btn-outline-primary margin5px txtw" data-toggle="modal" data-target="#assignmentModal"> Submit </a> 
+                      </td>
+                      
+                    </tr>
+                    <tr>
+                      <td>Software Engineering</td>
+                       <td>Due Date: 2019/02/02</td>
+                      <td class="text-right">
+                       <span class="badge badge-warning">Pending</span> <a class="btn btn-sm btn-outline-primary margin5px txtw" data-toggle="modal" data-target="#assignmentModal"> Submit </a> 
+                      </td>
+                      
                     </tr>
                    
                   </tbody></table>
                 </div>
 
-                	<div class="card">
+                	<div class="card scroll_short">
                   <div class="card-header">
                     <h2 class="card-title">Tests</h2>
                   </div>
                   <table class="table card-table">
                     <tbody><tr>
                       <td>Hardware Engineering</td>
+                      <td>Due Date: 2019/02/02</td>
+                      <td class="text-right">
+                       <span class="badge badge-success">Submitted</span> <a class="btn btn-sm btn-outline-primary margin5px txtw" > Resubmit </a> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Hardware Engineering</td>
+                       <td>Due Date: 2019/02/02</td>
+                      <td class="text-right">
+                       <span class="badge badge-success">Submitted</span> <a class="btn btn-sm btn-outline-primary margin5px txtw" > Resubmit </a> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Hardware Engineering</td>
+                       <td>Due Date: 2019/02/02</td>
                       <td class="text-right">
                        <span class="badge badge-success">Submitted</span> <a class="btn btn-sm btn-outline-primary margin5px txtw" > Resubmit </a> 
                       </td>
@@ -262,7 +319,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      <div class="card">
+      <div class="card scroll_short">
                   <div class="card-header">
                     <h4 class="card-title">Tests</h4>  <a class="btn btn-sm btn-outline-primary margin5px txtw " > Generate Report </a>
                   </div>
@@ -278,6 +335,21 @@
                       <td>C Test</td>
                       <td class="text-right"><span class="text-muted">50%</span></td>
                     </tr>
+                    <tr>
+                    
+                      <td>C Test</td>
+                      <td class="text-right"><span class="text-muted">50%</span></td>
+                    </tr>
+                    <tr>
+                    
+                      <td>C Test</td>
+                      <td class="text-right"><span class="text-muted">50%</span></td>
+                    </tr>
+                    <tr>
+                    
+                      <td>C Test</td>
+                      <td class="text-right"><span class="text-muted">50%</span></td>
+                    </tr>
                     
                   </tbody></table>
                 
@@ -285,7 +357,7 @@
     </div>
 </div>
     <div class="col-sm">
-       <div class="card">
+       <div class="card scroll_short">
                   <div class="card-header">
                     <h4 class="card-title">Assignments  </h4> <a class="btn btn-sm btn-outline-primary margin5px txtw"> Generate Report </a> 
                   </div>
@@ -297,6 +369,17 @@
                       <td class="text-right"><span class="text-muted">23%</span></td>
                     </tr>
                     <tr>
+                    
+                      <td>C Test</td>
+                      <td class="text-right"><span class="text-muted">50%</span></td>
+                    </tr>
+
+                     <tr>
+                    
+                      <td>C Test</td>
+                      <td class="text-right"><span class="text-muted">50%</span></td>
+                    </tr>
+                     <tr>
                     
                       <td>C Test</td>
                       <td class="text-right"><span class="text-muted">50%</span></td>

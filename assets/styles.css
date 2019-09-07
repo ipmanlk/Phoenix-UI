@@ -1,4 +1,9 @@
-
+.over
+{ 
+  max-height: 500px  !important; 
+  overflow: auto  !important;
+  display:inline-block  !important;
+}
 .bodybg
 { 
   background: url(images/cover.jpg) no-repeat center center fixed; 
@@ -142,3 +147,4 @@ body {font-family: "Lato", sans-serif;}
 {
   margin-left: 5px;
 }
+
