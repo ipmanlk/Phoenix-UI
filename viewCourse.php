@@ -138,9 +138,7 @@
         <div class="container">
   <div class="row">
     <div class="col-sm">
-    Course Code: <input class="form-control" type="text" name="txtCourseID" id="txtCourseID" placeholder="Course Code" disabled value="5648465">
-    <br>
-     Course Name: <input class="form-control" type="text" name="txtCourseName" id="txtCourseName" placeholder="Course Name"  value="Software Engineering" disabled>
+    <h4> Software Engneering </h4>
 
      <br>
     
