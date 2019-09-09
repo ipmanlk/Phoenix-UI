@@ -42,14 +42,61 @@
     <br>
     <center><h3> Add Questions</center>
     <br>
-    <h4> Question 1</h4>
-    <input type="text" class="form-control" name="" id="" placeholder="Enter Question"><br>
-    <input type="text"  class="form-control"  name="" id="" placeholder="Enter Answer"><br>
-    <input type="text" class="form-control"  name="" id="" placeholder="Enter Answer"><br>
-    <input type="text" class="form-control"  name="" id="" placeholder="Enter Answer"><br>
-    <input type="text" class="form-control"  name="" id="" placeholder="Enter Answer"><br>
-    <input type="text" class="form-control"  name="" id="" placeholder="Enter Correct Answer"><br>
-    <button class="btn btn-primary" style="width: 100%"> Submit</button>
+
+
+
+
+
+<!-- repaet this block. from here -->
+    <div class="container">
+         <input type="text" class="form-control" name="" id="" placeholder="Enter Question">
+         <br>
+  <div class="row">
+  <div class="col-8">
+  <input type="text"  class="form-control"  name="" id="" placeholder="Enter Answer"><br>
+</div>
+    <div class="col-4">
+    <label><input type="checkbox" value="" class="form-check-input position-static margin5px"> Correct Answer</label>
+    </div> 
+  </div>
+
+    <div class="row">
+  <div class="col-8">
+  <input type="text"  class="form-control"  name="" id="" placeholder="Enter Answer"><br>
+</div>
+    <div class="col-4">
+    <label><input type="checkbox" value="" class="form-check-input position-static margin5px"> Correct Answer</label>
+    </div> 
+  </div>
+
+    <div class="row">
+  <div class="col-8">
+  <input type="text"  class="form-control"  name="" id="" placeholder="Enter Answer"><br>
+</div>
+    <div class="col-4">
+    <label><input type="checkbox" value="" class="form-check-input position-static margin5px"> Correct Answer</label>
+    </div> 
+  </div>
+
+    <div class="row">
+  <div class="col-8">
+  <input type="text"  class="form-control"  name="" id="" placeholder="Enter Answer"><br>
+</div>
+    <div class="col-4">
+    <label><input type="checkbox" value="" class="form-check-input position-static margin5px"> Correct Answer</label>
+    </div> 
+  </div>
+
+<center><button class="btn btn-success">Add Question</button></center>
+
+</div>
+<!-- to here -->
+
+
+
+
+
+
 
   </div>
 
