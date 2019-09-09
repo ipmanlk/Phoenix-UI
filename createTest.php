@@ -49,47 +49,53 @@
 
 <!-- repaet this block. from here -->
     <div class="container">
-         <input type="text" class="form-control" name="" id="" placeholder="Enter Question">
-         <br>
-  <div class="row">
-  <div class="col-8">
-  <input type="text"  class="form-control"  name="" id="" placeholder="Enter Answer"><br>
-</div>
-    <div class="col-4">
-    <label><input type="checkbox" value="" class="form-check-input position-static margin5px"> Correct Answer</label>
-    </div> 
+  <input type="text" class="form-control" name="" id="" placeholder="Enter Question">
+     <br>
+
+     <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="checkbox" aria-label="Checkbox for following text input">  &nbsp;Correct Answer
+    </div>
   </div>
-
-    <div class="row">
-  <div class="col-8">
-  <input type="text"  class="form-control"  name="" id="" placeholder="Enter Answer"><br>
+  <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Answer">
 </div>
-    <div class="col-4">
-    <label><input type="checkbox" value="" class="form-check-input position-static margin5px"> Correct Answer</label>
-    </div> 
+
+  <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="checkbox" aria-label="Checkbox for following text input">  &nbsp;Correct Answer
+    </div>
   </div>
-
-    <div class="row">
-  <div class="col-8">
-  <input type="text"  class="form-control"  name="" id="" placeholder="Enter Answer"><br>
+  <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Answer">
 </div>
-    <div class="col-4">
-    <label><input type="checkbox" value="" class="form-check-input position-static margin5px"> Correct Answer</label>
-    </div> 
+
+
+  <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="checkbox" aria-label="Checkbox for following text input">  &nbsp;Correct Answer
+    </div>
   </div>
-
-    <div class="row">
-  <div class="col-8">
-  <input type="text"  class="form-control"  name="" id="" placeholder="Enter Answer"><br>
+  <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Answer">
 </div>
-    <div class="col-4">
-    <label><input type="checkbox" value="" class="form-check-input position-static margin5px"> Correct Answer</label>
-    </div> 
+
+  <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="checkbox" aria-label="Checkbox for following text input">  &nbsp;Correct Answer
+    </div>
   </div>
-
-<center><button class="btn btn-success">Add Question</button></center>
-
+  <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Answer">
 </div>
+
+<center><button class="btn btn-success text-center" >Add Question</button></center>
+  
+  
+  
+
+    
+
 <!-- to here -->
 
 
