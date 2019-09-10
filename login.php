@@ -14,43 +14,41 @@
    
   <div class="container margintop" >
     <br>
-   <center> <h2 class="txtwhite"> Login </h2></center>
-   <div class="card cardpadding" class="paddingtop">
+   <center> <h2 class="txtwhite"> Login </h2>
+   <div class="card bg-light mb-3 cardpadding paddingtop opacity50" style="width: 22rem; height: 300px;">
+    <p> Please fill your credentials to login </p>
 
-
-
-
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text" id="txtEmail" name="txtEmail">Email</span>
-  </div>
-  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-</div>
-
-
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <span class="input-group-text" id="txtPassword" name="txtPassword">Password</span>
-  </div>
-  <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-</div>
-
-
-<center><div class="dropdown">
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Login As
-  </a>
-
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="#">Student</a>
-    <a class="dropdown-item" href="#">Instructer</a>
-    
+  <div class="input-group mb-3">
+        <div class="input-group">
+        
+        </div>
+        <input id="txtEmail" name="txtEmail" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Email">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group">
+         
+        </div>
+        <input id="txtPassword" name="txtPassword" type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Password">
+      </div>
+      <center>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Login As
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a id="btnStudentLogin" class="dropdown-item" href="#">Student</a>
+            <a id="btnInstructorLogin" class="dropdown-item" href="#">Instructor</a>
+          </div>
+        </div>
+      </center>
+    </div>
   </div>
 </div></center>
 
 
   </div>
 </div>
+</center>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
