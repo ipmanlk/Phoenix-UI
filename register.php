@@ -42,6 +42,13 @@
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
+    <span class="input-group-text" id="txtNIC" name="txtNIC">NIC</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+</div> 
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
     <span class="input-group-text" id="inputDOB" name="inputDOB">Date of Birth</span>
   </div>
   <input type="date" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
